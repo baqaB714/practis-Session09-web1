@@ -3,12 +3,20 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(45deg ,rgba(255, 0, 0, 0.507) , rgba(255, 255, 0, 0.521) )  ,url('/assets/images/background.jpg');
+    background: linear-gradient(45deg ,rgba(255, 0, 0, 0.507) , rgba(255, 255, 0, 0.521) )  ,url('/assets/images/11.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-    /* background-blend-mode: overlay; */
+    background-blend-mode: overlay;
     background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    transform: translate(-50px);
+}
+li:nth-child(1){
+    transform: translate(-50px , -10px);
 }
 
 header {
